@@ -1,14 +1,14 @@
 import openai
 
-# OpenAI configuration
+# Your OpenAI configuration
 
-openai.api_type = "azure"
+openai.api_type = ""
 
-openai.api_base = "https://coe-openai-instance.openai.azure.com/"
+openai.api_base = ""
 
-openai.api_version = "2023-03-15-preview"
+openai.api_version = ""
 
-openai.api_key = "d079f278137e44a8812fc39fe85449eb"
+openai.api_key = ""
 
 def askLLM(system_context, user_context):
     dict_response = {}
